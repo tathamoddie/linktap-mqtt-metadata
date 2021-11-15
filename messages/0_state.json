@@ -1,0 +1,21 @@
+{
+    "topic": "homeassistant/linktap/B7018F1A004B1201/state",
+    "data": {
+        "is_rf_linked": "ON",
+        "is_flm_plugin": "OFF",
+        "is_fall": "OFF",
+        "is_broken": "OFF",
+        "is_cutoff": "OFF",
+        "is_leak": "OFF",
+        "is_clog": "OFF",
+        "is_manual_mode": "OFF",
+        "is_watering": "OFF",
+        "child_lock": "OFF",
+        "signal": 80,
+        "battery": 71,
+        "total_duration": 0,
+        "remain_duration": 0,
+        "speed": 0.00,
+        "volume": 0.00
+    }
+}

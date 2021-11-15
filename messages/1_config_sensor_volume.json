@@ -1,0 +1,21 @@
+{
+    "topic": "homeassistant/sensor/B7018F1A004B1201_volume/config",
+    "data": {
+        "name": "Back Courtyard volume",
+        "uniq_id": "B7018F1A004B1201_volume",
+        "stat_t": "homeassistant/linktap/B7018F1A004B1201/state",
+        "val_tpl": "{{ value_json.volume }}",
+        "device": {
+            "identifiers": [
+                "linktap_B7018F1A004B1201"
+            ],
+            "manufacturer": "Linktap",
+            "model": "TapLinker",
+            "name": "Back Courtyard",
+            "sw_version": "T0300021702051436"
+        },
+        "device_class": "volume",
+        "state_class": "total_increasing",
+        "unit_of_measurement": "L"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "topic": "homeassistant/switch/B7018F1A004B1201_water_switch/config",
+    "data": {
+        "name": "Back Courtyard water switch",
+        "uniq_id": "B7018F1A004B1201_water_switch",
+        "~": "homeassistant/linktap/B7018F1A004B1201_water_switch",
+        "cmd_t": "~/set",
+        "stat_t": "~/state",
+        "device": {
+            "identifiers": [
+                "linktap_B7018F1A004B1201"
+            ],
+            "manufacturer": "Linktap",
+            "model": "TapLinker",
+            "name": "Back Courtyard",
+            "sw_version": "T0300021702051436"
+        },
+        "icon": "mdi:water-pump"
+    }
+}

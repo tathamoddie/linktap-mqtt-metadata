@@ -1,0 +1,18 @@
+{
+    "topic": "homeassistant/binary_sensor/B7018F1A004B1201_is_manual_mode/config",
+    "data": {
+        "name": "Back Courtyard is manual mode",
+        "uniq_id": "B7018F1A004B1201_is_manual_mode",
+        "stat_t": "homeassistant/linktap/B7018F1A004B1201/state",
+        "val_tpl": "{{ value_json.is_manual_mode }}",
+        "device": {
+            "identifiers": [
+                "linktap_B7018F1A004B1201"
+            ],
+            "manufacturer": "Linktap",
+            "model": "TapLinker",
+            "name": "Back Courtyard",
+            "sw_version": "T0300021702051436"
+        }
+    }
+}

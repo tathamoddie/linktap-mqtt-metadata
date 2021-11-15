@@ -1,0 +1,21 @@
+{
+    "topic": "homeassistant/sensor/B7018F1A004B1201_speed/config",
+    "data": {
+        "name": "Back Courtyard speed",
+        "uniq_id": "B7018F1A004B1201_speed",
+        "stat_t": "homeassistant/linktap/B7018F1A004B1201/state",
+        "val_tpl": "{{ value_json.speed }}",
+        "device": {
+            "identifiers": [
+                "linktap_B7018F1A004B1201"
+            ],
+            "manufacturer": "Linktap",
+            "model": "TapLinker",
+            "name": "Back Courtyard",
+            "sw_version": "T0300021702051436"
+        },
+        "icon": "mdi:gauge",
+        "state_class": "measurement",
+        "unit_of_measurement": "L/min"
+    }
+}

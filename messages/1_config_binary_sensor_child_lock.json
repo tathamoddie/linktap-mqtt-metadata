@@ -1,0 +1,19 @@
+{
+    "topic": "homeassistant/binary_sensor/B7018F1A004B1201_child_lock/config",
+    "data": {
+        "name": "Back Courtyard child lock",
+        "uniq_id": "B7018F1A004B1201_child_lock",
+        "stat_t": "homeassistant/linktap/B7018F1A004B1201/state",
+        "val_tpl": "{{ value_json.child_lock }}",
+        "device": {
+            "identifiers": [
+                "linktap_B7018F1A004B1201"
+            ],
+            "manufacturer": "Linktap",
+            "model": "TapLinker",
+            "name": "Back Courtyard",
+            "sw_version": "T0300021702051436"
+        },
+        "icon": "mdi:account-lock"
+    }
+}

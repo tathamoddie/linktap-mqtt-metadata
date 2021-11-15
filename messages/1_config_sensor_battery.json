@@ -1,0 +1,22 @@
+{
+    "topic": "homeassistant/sensor/B7018F1A004B1201_battery/config",
+    "data": {
+        "name": "Back Courtyard battery",
+        "uniq_id": "B7018F1A004B1201_battery",
+        "stat_t": "homeassistant/linktap/B7018F1A004B1201/state",
+        "val_tpl": "{{ value_json.battery }}",
+        "device": {
+            "identifiers": [
+                "linktap_B7018F1A004B1201"
+            ],
+            "manufacturer": "Linktap",
+            "model": "TapLinker",
+            "name": "Back Courtyard",
+            "sw_version": "T0300021702051436"
+        },
+        "device_class": "battery",
+        "entity_category": "diagnostic",
+        "state_class": "measurement",
+        "unit_of_measurement": "%"
+    }
+}
