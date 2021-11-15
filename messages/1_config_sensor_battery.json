@@ -12,7 +12,8 @@
             "manufacturer": "Linktap",
             "model": "TapLinker",
             "name": "Back Courtyard",
-            "sw_version": "T0300021702051436"
+            "sw_version": "T0300021702051436",
+            "configuration_url": "http://192.168.180.128/"
         },
         "device_class": "battery",
         "entity_category": "diagnostic",
